@@ -209,4 +209,6 @@ REST_FRAMEWORK = {
     'EXCEPTION_HANDLER': 'meiduo_mall.utils.exceptions.exception_handler',
 }
 
-
+# 指定Django认证系统所使用的模型类
+# AUTH_USER_MODEL = '应用名.模型类'
+AUTH_USER_MODEL = 'users.User'
